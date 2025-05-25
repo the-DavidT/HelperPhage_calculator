@@ -107,21 +107,6 @@ strain_multipliers = {
 }
 ```
 
----
-
-## 🐞 Troubleshooting
-
-- **"src refspec main does not match any"**: Make sure you've committed code before pushing. Try:
-  ```bash
-  git add .
-  git commit -m "Initial commit"
-  git push origin main
-  ```
-
-- **GUI not launching?** Check if `tkinter` is installed:
-  ```bash
-  python -m tkinter
-  ```
 
 ---
 
